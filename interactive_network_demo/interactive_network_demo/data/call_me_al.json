@@ -1,0 +1,111 @@
+{
+  "nodes": [
+    {
+	  "id": "0",
+      "name": "A01",
+      "strength": 678790,
+	  "artist": "Dolly Parton",
+	  "distance":1.4
+    },
+	{
+	  "id": "3",
+      "name": "A03",
+      "strength": 234246,
+	  "artist": "Dolly Parton",
+	  "distance":3.4
+    },
+	{
+	  "id": "5",
+      "name": "A05",
+      "strength": 234125,
+	  "artist": "Dolly Parton",
+	  "distance":25
+    },
+	{
+	  "id": "6",
+      "name": "A06",
+      "strength": 234124,
+	  "artist": "Dolly Parton",
+	  "distance":12
+    },
+	{
+	  "id": "8",
+      "name": "A08",
+      "strength": 124124,
+	  "artist": "Dolly Parton",
+	  "distance":10.7
+    },
+	{
+	  "id": "9",
+      "name": "A09",
+      "strength": 234214,
+	  "artist": "Dolly Parton",
+	  "distance":3.8
+    },
+	{
+	  "id": "10",
+      "name": "A10",
+      "strength": 234245,
+	  "artist": "Dolly Parton",
+	  "distance":18.5
+    }
+    ],
+  "links": [
+    {
+      "source": "3",
+      "target": "8"
+    },{
+      "source": "9",
+      "target": "5"
+    },{
+      "source": "8",
+      "target": "5"
+    },{
+      "source": "9",
+      "target": "5"
+	},{
+      "source": "10",
+      "target": "8"
+    },{
+      "source": "0",
+      "target": "10"
+    },{
+      "source": "3",
+      "target": "8"
+    },{
+      "source": "9",
+      "target": "6"
+    },{
+      "source": "10",
+      "target": "8"
+    },{
+      "source": "0",
+      "target": "10"
+    },{
+      "source": "5",
+      "target": "8"
+    },{
+      "source": "3",
+      "target": "6"
+    },{
+      "source": "5",
+      "target": "8"
+    },{
+      "source": "9",
+      "target": "8"
+    },{
+      "source": "0",
+      "target": "10"
+    },{
+      "source": "10",
+      "target": "6"
+    },{
+      "source": "9",
+      "target": "10"
+    },{
+      "source": "3",
+      "target": "10"
+    }
+   
+  ]
+}
