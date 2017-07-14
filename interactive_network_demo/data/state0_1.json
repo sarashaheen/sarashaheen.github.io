@@ -1,0 +1,71 @@
+{
+  "nodes": [
+    {
+	  "id": "0",
+      "name": "A01",
+      "strength": 24,
+	  "artist":"Distance Moved = 1.4",
+	  "distance":1.4
+    },
+	{
+	  "id": "3",
+      "name": "A03",
+      "strength": 7.21,
+	  "artist":"Distance Moved = 3.4",
+	  "distance":3.4
+    },
+	{
+	  "id": "5",
+      "name": "A05",
+      "strength": 6.4,
+	  "artist":"Distance Moved = 25",
+	  "distance":25
+    },
+	{
+	  "id": "6",
+      "name": "A06",
+      "strength": 4.8,
+	  "artist":"Distance Moved = 12",
+	  "distance":12
+    },
+	{
+	  "id": "8",
+      "name": "A08",
+      "strength": 5.28,
+	  "artist":"Distance Moved = 10.7",
+	  "distance":10.7
+    },
+	{
+	  "id": "9",
+      "name": "A09",
+      "strength": 12.5,
+	  "artist":"Distance Moved = 3.8",
+	  "distance":3.8
+    },
+	{
+	  "id": "10",
+      "name": "A10",
+      "strength": 8.9,
+	  "artist":"Distance Moved = 18.5",
+	  "distance":18.5
+    }
+    ],
+  "links": [
+    {
+      "source": "3",
+      "target": "8"
+    },{
+      "source": "9",
+      "target": "5"
+    },{
+      "source": "8",
+      "target": "5"
+    },{
+      "source": "9",
+      "target": "5"
+	},{
+      "source": "10",
+      "target": "8"
+    }
+  ]
+}
